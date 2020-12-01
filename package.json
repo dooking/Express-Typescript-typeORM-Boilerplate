@@ -18,7 +18,8 @@
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "morgan": "^1.10.0",
-    "mysql2": "^2.2.5"
+    "mysql2": "^2.2.5",
+    "typeorm": "^0.2.29"
   },
   "devDependencies": {
     "@types/cors": "^2.8.8",

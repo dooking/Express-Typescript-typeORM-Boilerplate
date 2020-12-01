@@ -1,9 +1,11 @@
-import express, { Request, Response, NextFunction } from 'express'
+import { Router } from 'express'
+import { User } from '../entity/user'
+const router = Router()
 
-const router = express.Router()
-
-router.get('/', (req: Request, res: Response, next: NextFunction) => {
+router.get('/', async (req, res, next) => {
+  const users = await User.find({ nickName: 'java' })
+  console.log('users : ', users)
   res.send('world')
 })
 
-export = router
+export default router
