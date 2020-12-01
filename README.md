@@ -5,7 +5,7 @@
 
 ## 🔨 프로젝트 생성 및 기초 설정
 
-### 1. `**npm init —y**` : 기초 환경 설정
+### 1. `npm init —y` : 기초 환경 설정
 
 ### 2. Express 모듈 설치
 
@@ -127,7 +127,8 @@ typeorm init --database mysql
 
 ### 8. 전체 디렉토리 구조
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/561695e1-4eb1-449e-a84d-0cffc7bca725/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/561695e1-4eb1-449e-a84d-0cffc7bca725/Untitled.png)
+![image](https://user-images.githubusercontent.com/60457112/100765281-ac654e80-343a-11eb-9052-1aa2645d68c3.png)
+
 
 ### 9. app.ts 작성
 
@@ -182,9 +183,9 @@ export default app
 
 → 다음과 같은 테이블을 생성하는 코드 작성
 
-→ OneToMany 속성에 `**onDelete: 'CASCADE'**` 옵션 추가!
+→ OneToMany 속성에 `onDelete: 'CASCADE'` 옵션 추가!
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5182e197-e94d-4c29-8b5b-51f4e4ddff7b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5182e197-e94d-4c29-8b5b-51f4e4ddff7b/Untitled.png)
+![image](https://user-images.githubusercontent.com/60457112/100765318-b8511080-343a-11eb-9ad4-cf24e1661e3f.png)
 
 ```tsx
 // entity/user.ts
@@ -220,11 +221,12 @@ export class User extends BaseEntity {
 
 ### 11. Query 작성
 
-→ User 모델에서 nickName이 'java'인 row들을 추출해보는 작업을 해보자!
+→ User 모델에서 nickName이 ```java```인 row들을 추출해보는 작업을 해보자!
 
 → 다음과 같이 결과가 잘 나오는 것을 확인할 수 있다👀
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb196634-08d4-4476-a127-206326c1bc11/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb196634-08d4-4476-a127-206326c1bc11/Untitled.png)
+![image](https://user-images.githubusercontent.com/60457112/100765212-95bef780-343a-11eb-99fc-876f364e959d.png)
+
 
 ```tsx
 // router/index.ts
