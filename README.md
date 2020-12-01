@@ -243,3 +243,14 @@ router.get('/', async (req, res, next) => {
 
 export default router
 ```
+> 참고자료
+
+[https://typeorm.io/#/](https://typeorm.io/#/)
+
+[https://velog.io/@leeinae/TypeORM-TypeORM의-패턴들을-알아보자](https://velog.io/@leeinae/TypeORM-TypeORM%EC%9D%98-%ED%8C%A8%ED%84%B4%EB%93%A4%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
+
+[https://velog.io/@josworks27/TypeScript-Express-typeORM으로-서버-세팅하기1](https://velog.io/@josworks27/TypeScript-Express-typeORM%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84-%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B01)
+
+[https://medium.com/@hckcksrl/typescript을-사용해-typeorm-시작하기-cb7140b69c6c](https://medium.com/@hckcksrl/typescript%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%B4-typeorm-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-cb7140b69c6c)
+
+[https://velog.io/@ju_h2/TypeScript와-Typeorm을-사용해express-프로젝트-세팅](https://velog.io/@ju_h2/TypeScript%EC%99%80-Typeorm%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%B4express-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%84%B8%ED%8C%85)
