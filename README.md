@@ -1,7 +1,8 @@
-# Typescript-Express-typeORM-Boilerplate
+# Express-Typescript-typeORM-Boilerplate
+
 ## ✔️ 목표
 
-→ TypeScript + Express + typeORM을 이용하여 서버 세팅하기
+→ Express + TypeScript + typeORM을 이용하여 서버 세팅하기
 
 ## 🔨 프로젝트 생성 및 기초 설정
 
